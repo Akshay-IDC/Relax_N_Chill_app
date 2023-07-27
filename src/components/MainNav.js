@@ -5,7 +5,7 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import WhatshotIcon from '@mui/icons-material/Whatshot';
 import MovieCreationIcon from '@mui/icons-material/MovieCreation';
 import LocalMoviesIcon from '@mui/icons-material/LocalMovies';
-import ChildFriendlyIcon from '@mui/icons-material/ChildFriendly';
+
 import SearchIcon from '@mui/icons-material/Search';
 import { useNavigate } from 'react-router-dom';
 
