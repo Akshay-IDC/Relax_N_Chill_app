@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import axios from 'axios';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { img_500, unavailable, unavailableLandscape } from '../../config/config';
+import { img_500, unavailableLandscape } from '../../config/config';
 import { YouTube } from '@mui/icons-material';
 import "./ContentModal.css";
 import Carousel from './Carousel/Carousel.js';
@@ -44,6 +44,7 @@ export default function ContentModal({children ,media_type,id}) {
    useEffect(() => {
        fetchData();
        fetchVideo();
+    // eslint-disable-next-line
    }, [])
    
 
