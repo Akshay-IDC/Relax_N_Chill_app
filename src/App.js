@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
      <Header></Header>
      <div className="app">
-        <Container style={{backgroundColor:"#a51c1c"}}>
+        <Container style={{backgroundColor:"#8f1f1f"}}>
            <Routes>
               <Route exact path='/' element={<Trending></Trending>}/>
               <Route exact path='/movies' element={<Movies></Movies>}/>
